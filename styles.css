@@ -47,7 +47,7 @@ body {
 .icons {
   margin-top: 13px;
   width: 400px;
-  height: 25px;
+  height: 31px;
   background-color: white;
   border: 1px solid black;
   border-radius: 100px;
@@ -61,13 +61,13 @@ body {
 }
 
 #search-icon {
-  top: 4px;
-  left: 12px;
+  top: 7px;
+  left: 10px;
 
 }
 
 #microphone-logo {
-  top: 1px;
+  top: 4px;
   right: 9px;
   position: absolute;
   background-color: white;
@@ -76,24 +76,25 @@ body {
 }
 
 #keyboard-icon {
-  top: 3px;
+  top: 7px;
   right: 33px;
 
 }
 
 .buttons {
-  justify-content: space-around;
+  justify-content: space-evenly;
   display: flex;
-  width: 400px;
+  width: 300px;
 }
 
 .buttons input {
 
+  height: 25px;
   background-color: #f8f9fa;
-  border: 1px solid #f8f9fa;
+  border: 1px solid #989797;
   border-radius: 4px;
   color: #3c4043;
-  font-size: 14px;
+  font-size: 12px;
 
 }
 
@@ -116,18 +117,11 @@ body {
   border: 0px;
   outline: none;
 }
-
-.apps-parent {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 10px;
+#searchbutton{
+  margin-left: 2px;
+}
+#imfelling{
+  margin-right: 2px;
 }
 
-.youtube a {
-  color: red;
-}
 
-.Linkedin a {
-  color: rgb(0, 0, 255);
-}
