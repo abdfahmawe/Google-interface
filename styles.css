@@ -1,0 +1,127 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.project {
+  min-height: 100vh;
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteiner {
+  height: 300px;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.img-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.img-parent img {
+  width: 300px;
+
+}
+
+.icons-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  margin-top: 13px;
+  width: 400px;
+  height: 31px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.icons i {
+  position: absolute;
+  color: #6a6a6a;
+}
+
+#search-icon {
+  top: 7px;
+  left: 10px;
+
+}
+
+#microphone-logo {
+  top: 4px;
+  right: 9px;
+  position: absolute;
+  background-color: white;
+  height: 20px;
+  width: 20px;
+}
+
+#keyboard-icon {
+  top: 7px;
+  right: 33px;
+
+}
+
+.buttons {
+  justify-content: space-evenly;
+  display: flex;
+  width: 300px;
+}
+
+.buttons input {
+
+  height: 25px;
+  background-color: #f8f9fa;
+  border: 1px solid #989797;
+  border-radius: 4px;
+  color: #3c4043;
+  font-size: 12px;
+
+}
+
+.buttons input:hover {
+  background-color: lightgray;
+}
+
+.buttons-parent {
+  margin-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.input-feild {
+  top: -6px;
+  height: 41px;
+  width: 312px;
+  left: 32px;
+  position: absolute;
+  border: 0px;
+  outline: none;
+}
+#searchbutton{
+  margin-left: 2px;
+}
+#imfelling{
+  margin-right: 2px;
+}
+
+
